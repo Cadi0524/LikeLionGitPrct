@@ -18,7 +18,6 @@ public class InventorySlot : MonoBehaviour
       {
          this.itemData = itemData;
          this.ItemImage.sprite = itemData.icon;
-         Debug.Log($"아이템슬롯에 아이콘 :{this.itemData.icon} ");
          count++;
          ItemCount.text = count.ToString();
       }
@@ -26,7 +25,6 @@ public class InventorySlot : MonoBehaviour
       {
          count++;
          ItemCount.text = count.ToString();
-         Debug.Log($"아이템이 {count}개 되었습니다");
       }
    }
 

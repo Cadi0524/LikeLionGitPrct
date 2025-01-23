@@ -20,7 +20,6 @@ public class InteractiveItem : Item
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
-        Debug.Log(targetObject);
         targetAnimator = targetObject.GetComponent<Animator>();
     }
 

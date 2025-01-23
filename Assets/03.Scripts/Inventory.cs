@@ -49,7 +49,6 @@ public class Inventory : MonoBehaviour
         {
             if (slots[i].itemData == itemData)
             {
-                Debug.Log("같은 아이템 들어옴");
                 return slots[i];
             }
         }
@@ -58,7 +57,6 @@ public class Inventory : MonoBehaviour
         {
             if (slots[i].itemData == null)
             {
-                Debug.Log("i번째 슬롯이 비어있습니다");
 
                 return slots[i];
             }
